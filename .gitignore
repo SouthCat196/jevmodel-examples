@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+node_modules/
+.DS_Store
+Thumbs.db
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.log
+# Generated artifacts, if a contributor adds a web demo later.
+.output/
+.nitro/
+src/paraglide/
+src/routeTree.gen.ts

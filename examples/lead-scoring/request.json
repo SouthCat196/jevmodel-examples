@@ -1,0 +1,19 @@
+{
+  "state": {
+    "role": "Operations director",
+    "team_size": 120,
+    "request": "Requested a demo this week and shared a procurement timeline."
+  },
+  "questions": {
+    "priority": {
+      "type": "score",
+      "instructions": "Score follow-up priority from the observable signals in this lead.",
+      "criteria": [
+        "No stated need or purchase intent.",
+        "Some product fit but no near-term action.",
+        "Clear need with a demo request.",
+        "Active procurement with a stated timeline."
+      ]
+    }
+  }
+}

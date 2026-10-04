@@ -1,0 +1,14 @@
+{
+  "state": "The customer was charged twice and requests a corrected invoice.",
+  "questions": {
+    "queue": {
+      "type": "choice",
+      "instructions": "Which support team should review this customer message?",
+      "criteria": {
+        "billing": "Charges, refunds and invoice corrections.",
+        "technical": "Application failures, API errors and outages.",
+        "review": "Unclear or mixed requests requiring human triage."
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "request_id": "illustrative-lead-scoring",
+    "answers": { "priority": { "type": "score", "score": 2.7 } },
+    "usage": { "inputTokens": 186 },
+    "quota": { "used": 1, "limit": 10, "tokenBalance": 0, "globalUsed": 1, "globalLimit": 1000, "dayUtc": "2026-10-04" }
+  }
+}

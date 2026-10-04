@@ -1,0 +1,13 @@
+{
+  "state": "A customer reports a duplicate charge and asks for an immediate refund.",
+  "questions": {
+    "escalate": {
+      "type": "noul",
+      "instructions": "Should a human billing specialist review this request now?",
+      "criteria": {
+        "true": "A billing specialist should review the request now.",
+        "false": "No immediate specialist review is needed."
+      }
+    }
+  }
+}

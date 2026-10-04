@@ -1,0 +1,10 @@
+{
+  "name": "jevmodel-examples",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node quickstart/node.mjs",
+    "test": "node --test tests/client.test.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

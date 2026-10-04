@@ -1,0 +1,16 @@
+{
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "request_id": "illustrative-support-triage",
+    "answers": {
+      "queue": {
+        "type": "choice",
+        "choice": "billing",
+        "probabilities": { "billing": 0.86, "technical": 0.09, "review": 0.05 }
+      }
+    },
+    "usage": { "inputTokens": 186 },
+    "quota": { "used": 1, "limit": 10, "tokenBalance": 0, "globalUsed": 1, "globalLimit": 1000, "dayUtc": "2026-10-04" }
+  }
+}
